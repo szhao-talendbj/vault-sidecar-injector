@@ -124,7 +124,7 @@ helm repo add talend https://talend.github.io/helm-charts-public/stable
 helm repo update
 export CHART_LOCATION=talend/vault-sidecar-injector
 ```
-  > *Note: in talend/vault-sidecar-injector heml chart,all inherited parameters must be prepended with "vault-sidecar-injector."*
+  > *Note: in talend/vault-sidecar-injector helm chart,all inherited parameters must be prepended with "vault-sidecar-injector."*
 
 - if you use the downloaded chart archive:
 
